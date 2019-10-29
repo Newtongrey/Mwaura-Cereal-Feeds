@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "614555118711",
+    "firebase_url": "https://mwaura-cereals-feed-limited.firebaseio.com",
+    "project_id": "mwaura-cereals-feed-limited",
+    "storage_bucket": "mwaura-cereals-feed-limited.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614555118711:android:ab3031f46b2e8f0ed3ea72",
+        "android_client_info": {
+          "package_name": "com.example.mwauracerealsfeeds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "614555118711-22fikk288pbf9t6ltshn3l4m5k8uh4qg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mwauracerealsfeeds",
+            "certificate_hash": "eace6fc77f18895c87e35b8796eb9ef8c04e9191"
+          }
+        },
+        {
+          "client_id": "614555118711-ce03jre7pvfk2k82qeotvrjmtrem4495.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADbIT4IKNkwbeLUW-zB6sDXdBbhfXJAlo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "614555118711-ce03jre7pvfk2k82qeotvrjmtrem4495.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
