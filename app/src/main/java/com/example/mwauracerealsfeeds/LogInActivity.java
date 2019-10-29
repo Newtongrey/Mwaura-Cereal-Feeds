@@ -13,6 +13,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.mwauracerealsfeeds.admin.AdminCategoryActivity;
 import com.example.mwauracerealsfeeds.models.Users;
 import com.example.mwauracerealsfeeds.prevalent.Prevalent;
 import com.google.firebase.database.DataSnapshot;
@@ -124,7 +125,7 @@ public class LogInActivity extends AppCompatActivity {
                                 Toast.makeText(LogInActivity.this, "Welcome Admin, you logged in successfully...", Toast.LENGTH_SHORT).show();
                                 loadingBar.dismiss();
 
-                                Intent intent = new Intent(LogInActivity.this, MainActivity.class);
+                                Intent intent = new Intent(LogInActivity.this, AdminCategoryActivity.class);
                                 startActivity(intent);
                             }
                             else if (parentDbName.equals("Users"))

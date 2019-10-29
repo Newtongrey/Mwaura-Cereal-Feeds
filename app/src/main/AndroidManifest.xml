@@ -13,10 +13,13 @@
         android:roundIcon="@drawable/feeds"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".ProductDetailActivity"></activity>
+        <activity android:name=".admin.AdminAddNewProductActivity" />
+        <activity android:name=".admin.AdminCategoryActivity" />
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".SignUpActivity" />
         <activity android:name=".LogInActivity" />
         <activity android:name=".LandingActivity">
